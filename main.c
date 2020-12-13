@@ -72,7 +72,7 @@ int main(int argc, char *argv[]) {
 				ndPtr = list;
 				while (list_isEndNode(ndPtr) == 0)
 				{
-					//file code here -- print count and each scheduling info element
+					printf("count : \n");    //each scheduling info element
 					ndPtr = list_getNextNd(ndPtr); //get the next node from the list
 					schedInfo = list_getNdObj(ndPtr); //get the object (scheduling info)
 					
