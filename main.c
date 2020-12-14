@@ -76,7 +76,7 @@ int main(int argc, char *argv[]) {
 					ndPtr = list_getNextNd(ndPtr); //get the next node from the list
 					schedInfo = list_getNdObj(ndPtr); //get the object (scheduling info)
 					
-					//fill code this part - end
+					return 0;  //end
 				}
 				
 				break;
